@@ -429,7 +429,7 @@ button {
   .row.collapse > .column, .row.collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
-  .row .row {
+  /*.row .row {
     margin-left: -0.9375rem;
     margin-right: -0.9375rem; }
     .row .row.collapse {
@@ -440,7 +440,7 @@ button {
     padding-right: 0; }
   .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px; }*/
   @media screen and (min-width: 32em) {
     .row.medium-collapse > .column, .row.medium-collapse > .columns {
       padding-left: 0;
