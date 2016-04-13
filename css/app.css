@@ -432,6 +432,18 @@ button {
   .row.collapse > .column, .row.collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
+  .row .row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem; }
+    .row .row.collapse {
+      margin-left: 0;
+      margin-right: 0; }
+  .row.small-collapse > .column, .row.small-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
+    padding-left: 30px;
+    padding-right: 30px; }
   @media screen and (min-width: 32em) {
     .row.medium-collapse > .column, .row.medium-collapse > .columns {
       padding-left: 0;
@@ -3172,10 +3184,28 @@ h1 {
   -ms-flex-pack: center; }
   .projectMain p {
     font-size: 2.5em; }
+  .projectMain #DNRText {
+    font-size: 2.5em;
+    color: #ff69b9;
+    font-family: Permanent Marker; }
+  .projectMain #peraltaText {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #00ff09;
+    font-family: Permanent Marker; }
+  .projectMain #barsAndStripesText {
+    font-size: 2.5em;
+    color: #EC6E22;
+    font-family: Permanent Marker; }
+  .projectMain #petsyText {
+    font-size: 3.75em;
+    color: red;
+    font-family: Permanent Marker; }
   .projectMain .learnMore {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: #FFF;
+    color: blue;
+    font-family: Fredoka One, cursive;
     margin-top: 20px; }
 
 #about {

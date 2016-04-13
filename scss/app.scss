@@ -249,10 +249,33 @@ h1{
   p{
     font-size: 2.5em;
   }
+  #DNRText {
+    font-size: 2.5em;
+    color: #ff69b9;
+    font-family: Permanent Marker;
+  }
+  #peraltaText {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #00ff09;
+    font-family: Permanent Marker;
+  }
+  #barsAndStripesText {
+    font-size: 2.5em;
+    color: #EC6E22;
+    // color: #09e3f9;
+    font-family: Permanent Marker;
+  }
+  #petsyText {
+    font-size: 3.75em;
+    color: red;
+    font-family: Permanent Marker;
+  }
   .learnMore{
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: #FFF;
+    color: blue;
+    font-family: Fredoka One, cursive;
     margin-top:20px;
   }
 }
