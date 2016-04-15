@@ -432,12 +432,12 @@ button {
   .row.collapse > .column, .row.collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
-  /*.row .row {
+  .row .row {
     margin-left: -0.9375rem;
     margin-right: -0.9375rem; }
     .row .row.collapse {
       margin-left: 0;
-      margin-right: 0; }*/
+      margin-right: 0; }
   .row.small-collapse > .column, .row.small-collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
